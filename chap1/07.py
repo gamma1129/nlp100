@@ -7,6 +7,6 @@ y = u'気温'
 z = 22.4
 
 def function(x, y, z):
-    print unicode(x) + u'時の' + unicode(y) + u'は' + unicode(z)
+    return unicode(x) + u'時の' + unicode(y) + u'は' + unicode(z)
 
-function(x, y, z)
+print function(x, y, z)
